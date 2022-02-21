@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+
+.wrapper{
+	min-height: 100%;
+	overflow: visible;
+}
+
+.content{
+    max-width: 390px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    padding: 40px 0 40px 0;
+    line-height: 1.6;
+    color: #424551;
+}
+
+.title2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+
+.title1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.30;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+
+.list{
+    padding-left: 32px;
+    margin-bottom: 48px;
+}
+
+.list > *:last-child{
+	margin-bottom: 0;
+}
+
+.sublist{
+    margin-bottom: 12px;
+}
+
+.list li::before{
+    content: "";
+    display: inline-block;
+    background: url("../img/check.png") 0px 0px / auto no-repeat;
+    height: 16px;
+    width: 16px;
+    margin: 0px 16px 0px -32px;
+}
+
+.link{
+    display: inline-block;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 3.14; 
+    text-align: center;
+    padding: 0 32px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    min-width: 161px;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-family: "Taviraj", serif;
+    color: #333333;
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.text::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 65px;
+    background: #333333;
+}
+
+
+
